@@ -1,2 +1,26 @@
 
 /* Your CSS Code here. */
+.container{
+	background:cyan;
+	height:300px;
+	outline:5px solid navy;
+	padding:0px 10px;
+}
+.heading{
+	font-size:22px;
+	font-weight:600;
+	padding-top:8px;
+	color:red;
+}
+#evaluatedText{
+	color:navy;
+	font-size:16px;
+	font-weight:550;
+	width:99%;
+	height:50%;
+	outline:2px solid yellow;
+	border:none;
+}
+#letterCount{
+	color:navy;
+}
