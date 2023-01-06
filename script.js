@@ -3,7 +3,7 @@ let text = document.getElementById("evaluatedText");
 let count = document.getElementById("letterCount");
 
 function charCount() {
-	if(text == ""){
+	if(text.value.length == 0){
 		count.innerHTML = 0;
 	}
 	else{
